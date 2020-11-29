@@ -16,10 +16,10 @@ You need an installation of Python, plus the following libraries:
 
 ### Process Breakdown
 - **Business Understanding :**  We are required to build Machine Learning models to anticipate and classify the severity of any airplane accident based on past incidents. With this, all airlines, even the entire aviation industry, can predict the severity of airplane accidents caused due to various factors and, correspondingly, have a plan of action to minimize the risk associated with them.  
-###### Question in focus:
-1. Which factor mostly affects accident ?
-2. Did airplane score good in safety ?
-3. When was the last inspection and how it affected the accident ?
+       ###### Question in focus:
+       1. Which factor mostly affects accident ?
+       2. Did airplane score good in safety ?
+       3. When was the last inspection and how it affected the accident ?
 
 and last we will make a model to predict severity of airplane accidents
 
