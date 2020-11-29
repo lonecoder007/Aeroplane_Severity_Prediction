@@ -14,9 +14,6 @@ You need an installation of Python, plus the following libraries:
 - seaborn
 - scikit-learn
 
-### File Description
-The csv file is downloaded from HackerEarth. The jupyter notebook file contains codes of data preprocessing, data visualizations and a model prediciton of Severity of an airplane accident.
-
 ### Process Breakdown
 - **Business Understanding :**  We are required to build Machine Learning models to anticipate and classify the severity of any airplane accident based on past incidents. With this, all airlines, even the entire aviation industry, can predict the severity of airplane accidents caused due to various factors and, correspondingly, have a plan of action to minimize the risk associated with them.
 
@@ -33,6 +30,9 @@ The dataset consists of certain parameters recorded during the incident⁠ such 
 - **Data Preparation:** We will try to find and remove anomalies like missing values and data inconsistencies. Also we will see which features affects the data using ensemble technique and how usind data visualization.
 - **Modeling :** We will we using ensemble technique called **Gradient Boosting**. Gradient boosting does very well because it is a robust out of the box classifier (regressor) that can perform on a dataset on which minimal effort has been spent on cleaning and can learn complex non-linear decision boundaries via boosting.
 - **Evaluation:**  Our metric for worthiness of the model would be the accuracy. We will first try to find the optimal hyper-parameters for our model using GridCV and crossValidation to find the minimum amount of loss
+
+### File Description
+The csv file is downloaded from HackerEarth. The jupyter notebook file contains codes of data preprocessing, data visualizations and a model prediciton of Severity of an airplane accident.
 
 ### Summary
 In summary, We went through each and every steps of CRISP_DM, did different types of analysis on the data, visualized the data with different types of charts and trained the model with different types of machine learning models to predict the severity of airplane accident.
